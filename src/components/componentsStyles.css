@@ -1,0 +1,1319 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ 
+
+ .consultation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 66, 155);
+    height: 40px;
+    align-items: center;
+ }
+ 
+ 
+ .consultation h2 {
+    font-weight: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+ }
+ 
+ 
+ .consultation h3 {
+    color: white;
+    font-size: 15px;
+ }
+ 
+ 
+ .consultation-button {
+    background-color: rgb(159, 244, 255);
+    border: none;
+    margin-right: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    height: 25px;
+ }
+ 
+ 
+ 
+ 
+ .consultation-button:hover{
+   background-color: white;
+ }
+ 
+ 
+ .home-images {
+    background-image: url('/src/images/home-image.jpeg');
+    background-size: contain;
+    height: 750px;
+ }
+ 
+ 
+ .home-images h1 {
+    margin: 0;
+    color: #02122D;
+    text-align: center;
+    font-size: 50px;
+ }
+ 
+ 
+ .home-images button {
+    height: 50px;
+    width: 120px;
+    background-color: #02122D;
+    color: white;
+    border: 2px solid #02122D;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+ }
+ 
+ 
+ .home-images button:hover {
+    transform: scale(0.9,1);
+    color: white;
+ }
+ 
+ 
+ .home-text {
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1000px;
+ }
+ 
+ 
+ .home-text p {
+    color: #02122D;
+    width: 90%;
+    text-align: center;
+ }
+ 
+ 
+ 
+ 
+ .home-info {
+  background-color: white;
+ }
+ 
+ 
+ .home-info h1 {
+    margin: 0;
+    text-align: center;
+    color: #02122D;
+    margin-bottom: 30px;
+ }
+ 
+ 
+ .home-info p {
+    color: #02122D;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 10px 60px;
+ }
+ 
+ 
+ 
+ 
+ .home-info button{
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-color: #02122D;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ 
+ 
+ .home-info button:hover {
+    background: transparent;
+    border: 1px solid #02122D;
+    color: #02122D
+ }
+ 
+ 
+ .home-providers-info{
+    background-image: url("/src/images/wakingup.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    height: 300px;
+    color: #02122D;
+    text-align: center;
+ }
+ 
+ 
+ .home-providers-info h1{
+    margin: 0;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: normal;
+ }
+ .home-providers h2{
+    font-size: 12px;
+ }
+ 
+ 
+ .home-providers p {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+ 
+ 
+ .home-consultation-wrapper{
+        box-shadow: 10px 10px 10px gray ;
+        width: 70%;
+        margin: auto;
+        top: 225%;
+        position: static;
+        left: 200px;
+ }
+ 
+ 
+ .home-consultation{
+    background-color: white;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .home-consultation h1 {
+    font-size: 20px;
+    color: #02122D;
+    margin: 0;
+ }
+ 
+ 
+ .home-consultation p {
+    margin: 0;
+ }
+ 
+ 
+ .home-consultation button {
+    margin-top: 15px;
+    background-color: #02122D;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+ }
+ 
+ 
+ .home-consultation button:hover{
+    background-color: rgb(159, 244, 255);
+    color: #02122D;
+ }
+ 
+ 
+ .home-practiceinfo{
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(171,213,255,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(171,213,255,1) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(171,213,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#abd5ff",GradientType=1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+ }
+ 
+ 
+ .home-practiceinfo h1{
+    font-size: 50px;
+    color:#02122D;
+    font-weight: normal;
+    margin-left: 25px;
+ }
+ 
+ 
+ .home-practiceinfo span {
+    display: block;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: normal;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .reference-testimonials .slick-arrow.slick-prev,
+ .reference-testimonials  .slick-arrow.slick-next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 5px;
+ }
+ .reference-testimonials  .slick-prev::before,
+ .reference-testimonials  .slick-next::before {
+  display: none;
+ }
+ .reference-testimonials  .slick-arrow.slick-next {
+  right: -70px;
+ }
+ .reference-testimonials  .slick-arrow.slick-prev {
+  left: -70px;
+ }
+ .reference-testimonials  .slick-dots li button:before {
+  font-size: 15px;
+ }
+ .reference-testimonials  .slick-dots li {
+  top: 15px;
+ }
+ 
+ 
+ .about-us-image {
+    background-image: url("/src/images/placeholder.png");
+    background-size: cover;
+ }
+ 
+ 
+  h2 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+ 
+ 
+  .about {
+    width: 100%;
+    height: 350px;
+  }
+ 
+ 
+ 
+ 
+  .about-us-info h1 {
+    margin-top: 60px;
+    font-weight: normal;
+    color: #02122D;
+    text-align: center;
+  }
+ 
+ 
+  .about-us-info p {
+    margin: 10px 80px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #02122D;
+  }
+ 
+ 
+  .about-us-providers {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(171,213,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(171,213,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(171,213,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#abd5ff",GradientType=1);
+  }
+ 
+ 
+  .about-us-providers-info {
+    height: 105%;
+  }
+ 
+ 
+  .about-us-providers-info h1{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 20px 80px;
+  }
+ 
+ 
+  .about-us-providers-info p {
+    margin: 10px 80px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #02122D;
+  }
+ 
+ 
+ 
+ 
+ .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    background-color: rgb(171,213,255,1);
+    box-shadow: 5px 5px 5px navy;
+  }
+  .cards{
+    display: flex;
+    margin-top: 50px;
+    width: "200px";
+    height: "222px";
+  }
+  .card-content {
+    padding: 16px;
+  }
+ 
+ 
+  .card-content h2{
+    color: rgb(2, 66, 155);
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 25px;
+ 
+ 
+  }
+ 
+ 
+  .card-content p {
+    text-align: center;
+    line-height: 30px;
+  }
+ 
+ 
+  .sleep-and-health{
+    display: flex;
+    background-color: #02122D;
+  }
+ 
+ 
+  .sleep-health-content{
+    width: 50%;
+    float: left;
+    margin: 0px 40px;
+    line-height: 30px;
+    height: 100%;
+  }
+ 
+ 
+  .sleep-health-content h1 {
+    font-weight: normal;
+    color:rgb(2, 66, 155);
+  }
+ 
+ 
+  .sleep-health-content p {
+    font-size: 10px;
+    color: white;
+  }
+ 
+ 
+ 
+ 
+  .about-us-consultation-wrapper{
+    box-shadow: 10px 10px 10px gray ;
+    width: 70%;
+    margin: auto;
+    top: 175%;
+    position: absolute;
+    left: 200px;
+ }
+ 
+ 
+ .about-us-consultation{
+ background-color: white;
+ width: 100%;
+ height: 110px;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ }
+ .about-us-consultation h1 {
+ font-size: 20px;
+ color: rgb(2, 66, 155);
+ margin: 0;
+ }
+ 
+ 
+ .about-us-consultation p {
+ margin: 0;
+ }
+ 
+ 
+ .about-us-consultation button {
+ margin-top: 15px;
+ background-color: #02122D;
+ color: white;
+ border: none;
+ width: 200px;
+ height: 40px;
+ cursor: pointer;
+ }
+ 
+ 
+ .about-us-consultation button:hover{
+ background-color: rgb(2, 66, 155);
+ color: white;
+ }
+ 
+ 
+ .contact-us {
+    width: 100%;
+    height: 100%;
+  }
+ 
+ 
+ 
+ 
+  .contact-us h1 {
+    margin-top: 30px;
+    font-weight: normal;
+    color: #02122D;
+    text-align: center;
+  }
+ 
+ 
+  .contact-us p {
+    margin: 10px 80px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #02122D;
+  }
+  .contact-us-FAQ{
+    display: flex;
+    background-color: #02122D;
+    height: 100%;
+  }
+ 
+ 
+  .contact-us-content {
+    width: 50%;
+    float: left;
+    margin: 0px 40px;
+    line-height: 30px;
+  }
+ 
+ 
+  .contact-us-content h1 {
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+ 
+ 
+  .contact-us-content p {
+    font-size: 10px;
+    color: white;
+  }
+ 
+ 
+  .contact-us-content button {
+    background-color: rgb(2, 66, 155);
+    color: white;
+    border: none;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+  }
+ 
+ 
+  .contact-us-FAQ img {
+    margin-left: 195px;
+  }
+ 
+ 
+  .locations {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(171,213,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(171,213,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(171,213,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#abd5ff",GradientType=1);
+  }
+ 
+ 
+  .locations h1 {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 50px;
+  }
+ 
+ 
+  .locations p {
+    text-align: center;
+    margin: 0px 60px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+ 
+ 
+  .cards-contact-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+ 
+  .contact-us-consultation-wrapper{
+    width: 70%;
+    margin: auto;
+    top: 210%;
+    position: absolute;
+    left: 200px;
+ }
+ 
+ 
+ .contact-us-consultation{
+ background-color: white;
+ width: 100%;
+ height: 110px;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ }
+ .contact-us-consultation h1 {
+ font-size: 20px;
+ color: rgb(2, 66, 155);
+ margin: 0;
+ }
+ 
+ 
+ .contact-us-consultation p {
+ margin: 0;
+ }
+ 
+ 
+ .contact-us-consultation button {
+ margin-top: 15px;
+ background-color: #02122D;
+ color: white;
+ border: none;
+ width: 200px;
+ height: 40px;
+ cursor: pointer;
+ }
+ 
+ 
+ .contact-us-consultation button:hover{
+ background-color: rgb(2, 66, 155);
+ color: white;
+ }
+ 
+ 
+ .reference h1 {
+  text-align: center;
+  font-weight: normal;
+  color: #02122D;
+  font-size: 25px;
+ }
+ 
+ 
+ .reference p {
+  margin: 0px 60px;
+  line-height: 30px;
+ }
+ 
+ 
+ .reference-testimonials {
+  height: 100%;
+ 
+ 
+ }
+ 
+ 
+ .reference-testimonials h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: normal;
+  color: #02122D;
+  margin-top: 50px;
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .reference-grid {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+ }
+ 
+ 
+ .testimonial-content{
+  margin-top: 20px;
+ }
+ 
+ 
+ @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+ @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+ figure.snip1157 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  height: 105%;
+  width: 110%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+ }
+ figure.snip1157 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+ }
+ 
+ 
+ figure.snip1157 blockquote {
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 25px 50px 30px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+ }
+ figure.snip1157 blockquote:before,
+ figure.snip1157 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+ }
+ figure.snip1157 blockquote:before {
+  top: 25px;
+  left: 20px;
+ }
+ figure.snip1157 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+ }
+ figure.snip1157 .arrow {
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fafafa;
+  margin: 0;
+  position: absolute;
+ }
+ figure.snip1157 h5 {
+  text-transform: uppercase;
+  color: #02122D;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+    /* Extra small devices (phones, 600px and down) */
+ /* @media only screen
+ and (min-width: 375px)
+ and (max-width: 822px)
+ and (-webkit-min-device-pixel-ratio: 3)
+ {
+  .home-info p {
+    display: flex;
+    font-size: 12px;
+    margin: 0px 25px;
+  }
+  .home-info {
+    height: 1225px;
+  }
+  .home-info button {
+    margin-top: 20px;
+  }
+  .home-consultation {
+    height: 150px;
+  }
+  .home-consultation-wrapper{
+    left: 55px;
+    top: 3570px;
+    box-shadow: none;
+  }
+  .home-providers-info {
+    height: 300px;
+    background-position-x: -279px;
+  }
+  .home-providers-info-content p, .home-providers-info-content h1{
+      background-size: cover;
+ }
+ .home-practiceinfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 665px;
+ }
+ 
+ 
+ .home-practiceinfo h1{
+  font-size: 50px;
+  color:#02122D;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-left: 0px;
+ }
+ 
+ 
+ .home-practiceinfo span {
+  display: block;
+  font-size: 15px;
+  margin-top: 20px;
+  font-weight: normal;
+ }
+ 
+ 
+ .testimonial-content{
+  margin-top: 90px;
+ }
+ 
+ 
+ .testimonial h1 {
+  margin-left: -15px;
+ }
+ .slick-prev, .slick-next{
+  width: 0px;
+ }
+ .about {
+  width: 100%;
+  height: 350px;
+ }
+ 
+ 
+ 
+ 
+ .about-us-info h1 {
+  margin-top: 60px;
+  font-weight: normal;
+  color: #02122D;
+  text-align: center;
+ }
+ 
+ 
+ .about-us-info p {
+  margin: 0px 20px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #02122D;
+ }
+ 
+ 
+ 
+ 
+ .about-us-providers-info {
+  height: 1435px;
+ }
+ 
+ 
+ .about-us-providers-info h1{
+  font-size: 20px;
+  font-weight: normal;
+  margin: 40px 20px;
+ }
+ 
+ 
+ .about-us-providers-info p {
+  margin: 0px 20px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #02122D;
+ }
+ 
+ 
+ .card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+ }
+ .cards{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: "200px";
+  height: "222px";
+ }
+ .card-content {
+  padding: 16px;
+ }
+ 
+ 
+ .card-content h2{
+  color: rgb(2, 66, 155);
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 25px;
+ 
+ 
+ }
+ 
+ 
+ .card-content p {
+  text-align: center;
+  line-height: 30px;
+ }
+ 
+ 
+ .sleep-and-health{
+  display: flex;
+  flex-direction: column;
+ }
+ .sleep-health-content{
+  width: 80%;
+  height: 895px;
+ }
+ .about-us-consultation-wrapper{
+  box-shadow: none ;
+  width: 70%;
+  margin: auto;
+  top: 6520px;
+  position: absolute;
+  left: 68px;
+ }
+ 
+ 
+ .about-us-consultation{
+ background-color: white;
+ width: 100%;
+ height: 150px;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ }
+ .about-us-consultation h1 {
+ font-size: 20px;
+ color: rgb(2, 66, 155);
+ margin: 0;
+ }
+ 
+ 
+ .about-us-consultation p {
+ margin: 0;
+ }
+ 
+ 
+ .about-us-consultation button {
+ margin-top: 15px;
+ background-color: #02122D;
+ color: white;
+ border: none;
+ width: 200px;
+ height: 40px;
+ cursor: pointer;
+ }
+ 
+ 
+ .about-us-consultation button:hover{
+ background-color: rgb(2, 66, 155);
+ color: white;
+ }
+ 
+ 
+ .contact-us p {
+  margin: 0px 20px;
+ }
+ 
+ 
+ .contact-us-FAQ{
+  display: flex;
+  flex-direction: column;
+  background-color: #02122D;
+  height: 750px;
+ }
+ 
+ 
+ .contact-us-content {
+  width: 90%;
+  float: left;
+  margin: 0px 25px;
+  line-height: 30px;
+ }
+ 
+ 
+ .contact-us-FAQ img {
+  margin-left: 0px;
+  margin-top: 20px;
+ }
+ 
+ 
+ 
+ 
+ .locations p {
+  margin: 0px 20px;
+ }
+ 
+ 
+ .cards-contact-us {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+ 
+ .contact-us-consultation-wrapper{
+  top: 2450px;
+  left: 60px;
+ }
+ .reference p {
+ margin: 0px 20px;
+ }
+ 
+ 
+ .reference-testimonials {
+ height: 3200px;
+ }
+ 
+ 
+ .reference-grid {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ }
+ 
+ 
+ } */
+ 
+ 
+ @media only screen and (max-width: 600px) {
+ 
+ 
+  .home-text {
+    width: 100%;
+  }
+  .flex-box-container {
+    width: 100%;
+ }
+ .home-images {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.home-providers-info{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+ .home-text h1 {
+    font-size: 25px;
+    line-break: normal;
+ }
+ .home-practiceinfo{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+ }
+ .home-practiceinfo h1{
+  margin: 20px 0px;
+ }
+ .home-info p{
+  margin: 0px 20px;
+ }
+ .home-consultation-wrapper {
+  position: relative;
+  left: 1px;
+  top: 90px;
+  box-shadow: none;
+ }
+ .cards {
+  display: flex;
+  flex-direction: column;
+ }
+ .sleep-and-health {
+  display: flex;
+  flex-direction: column;
+ }
+ .sleep-health-content {
+ width: 85%;
+ }
+ .about-us-info p {
+  margin: 0px 20px;
+ }
+ .about-us-providers-info h1 {
+  margin: 20px 20px;
+ }
+ .about-us-providers-info p {
+  margin: 0px 20px;
+ }
+ .about-us-consultation-wrapper{
+  position: static;
+  box-shadow: none;
+  margin-top: 40px;
+  }
+  .contact-us-FAQ{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-us-content{
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  .contact-us-FAQ img {
+    margin-left: 0px;
+  }
+  .contact-us-consultation-wrapper{
+    position: static;
+    box-shadow: none;
+    margin-top: 60px;
+  }
+  .reference-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-us p {
+    margin: 0px 40px;
+  }
+  .reference p {
+    margin: 0px 20px;
+  }
+  .cards-contact-us {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonial h1 {
+    margin-left: -5px;
+  }
+ }
+ 
+ 
+ 
+ 
+ @media only screen and (min-width: 601px) {
+ 
+ 
+  .home-text {
+    width: 100%;
+  }
+  .flex-box-container {
+    width: 100%;
+ }
+ .home-consultation-wrapper {
+  position: relative;
+  left: 1px;
+  top: 90px;
+  box-shadow: none;
+ }
+ .home-images {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.home-providers-info{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+ .cards {
+  display: flex;
+  flex-direction: column;
+ }
+ .sleep-and-health {
+  display: flex;
+  flex-direction: column;
+ }
+ .sleep-health-content {
+ width: 85%;
+ }
+ .contact-us-FAQ{
+  display: flex;
+  flex-direction: column;
+ }
+ .contact-us-content{
+  width: 90%;
+  margin-bottom: 40px;
+ }
+ .contact-us-FAQ img {
+  margin-left: 0px;
+ }
+ .contact-us-consultation-wrapper{
+  position: static;
+  box-shadow: none;
+  margin-top: 60px;
+ }
+ .reference-grid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .about-us-consultation-wrapper{
+  position: static;
+  box-shadow: none;
+  margin-top: 40px;
+  }
+ }
+ 
+ 
+ @media only screen and (min-width: 768px){
+ 
+ 
+  .home-text {
+    width: 100%;
+  }
+  .flex-box-container {
+    width: 100%;
+ }
+ /* .cards {
+  display: flex;
+  flex-direction: column;
+ } */
+ .sleep-and-health {
+  display: flex;
+  flex-direction: column;
+ }
+ .sleep-health-content {
+ width: 85%;
+ }
+ .home-consultation-wrapper {
+  position: relative;
+  left: 1px;
+  top: 90px;
+  box-shadow: none;
+ }
+ .reference-grid {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+ }
+ .contact-us-FAQ{
+  display: flex;
+  flex-direction: column;
+ }
+ .contact-us-content{
+  width: 90%;
+  margin-bottom: 40px;
+ }
+ .contact-us-FAQ img {
+  margin-left: 0px;
+ }
+ }
+ 
+ 
+ @media only screen and (min-width: 992px) {
+ 
+ 
+  .home-text {
+    width: 100%;
+  }
+  .flex-box-container {
+    width: 100%;
+ }
+ .home-consultation-wrapper {
+  position: relative;
+  left: 1px;
+  top: 80px;
+  box-shadow: none;
+ }
+ .contact-us-FAQ{
+  display: flex;
+  flex-direction: column;
+ }
+ .contact-us-content{
+  width: 90%;
+  margin-bottom: 40px;
+ }
+ .contact-us-FAQ img {
+  margin-left: 0px;
+ }
+ }
+ 
+ 
+ @media only screen and (min-width: 1200px)  {
+  .home-text {
+    width: 100%;
+  }
+  .flex-box-container {
+    width: 100%;
+ }
+ .home-consultation-wrapper {
+  position: relative;
+  left: 1px;
+  top: 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: none;
+ }
+ .cards {
+ display: flex;
+ flex-direction: row;
+ }
+ .sleep-and-health {
+ display: flex;
+ flex-direction: row;
+ }
+ .sleep-health-content {
+ width: 85%;
+ }
+ .about-us-consultation-wrapper{
+ position: static;
+ box-shadow: none;
+ margin-top: 40px;
+ }
+ .contact-us-FAQ{
+  display: flex;
+  flex-direction: row;
+ }
+ .contact-us-content{
+  width: 90%;
+  margin-bottom: 40px;
+ }
+ .contact-us-FAQ img {
+  margin-left: 0px;
+ }
+ .contact-us-consultation-wrapper{
+  position: static;
+  box-shadow: none;
+  margin-top: 60px;
+  margin-bottom: 60px;
+ }
+ .reference-grid{
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+ }
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ @media only screen and (min-width: 1441px) {
+  .reference-grid{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+ }
+ 
+ 
+ @media only screen and (min-width: 2050px){
+  .reference-grid{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+  }
+ }
+ 
+ 
+ 
+ 
+ 

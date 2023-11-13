@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eab2e61d.css",
+    "main.js": "/static/js/main.af18dd5a.js",
+    "static/js/787.7ba6c9d3.chunk.js": "/static/js/787.7ba6c9d3.chunk.js",
+    "static/media/logo.png": "/static/media/logo.350510b0fb4545a7c899.png",
+    "static/media/home-image.jpeg": "/static/media/home-image.50987f2d881505008402.jpeg",
+    "static/media/sleeping-onside.jpeg": "/static/media/sleeping-onside.41e4dd8f3247653d1dc4.jpeg",
+    "static/media/wake-up.webp": "/static/media/wake-up.e53e6d2187af2bb348f9.webp",
+    "static/media/wakingupchild.webp": "/static/media/wakingupchild.636d4defe40f8679d301.webp",
+    "static/media/smiling-woman.jpeg": "/static/media/smiling-woman.0b3407fcf811aa1d2b93.jpeg",
+    "static/media/sleeping-man.avif": "/static/media/sleeping-man.eae3257dc66e36a2b8d0.avif",
+    "static/media/wakingup.avif": "/static/media/wakingup.b8392545c1be8a67903d.avif",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.eab2e61d.css.map": "/static/css/main.eab2e61d.css.map",
+    "main.af18dd5a.js.map": "/static/js/main.af18dd5a.js.map",
+    "787.7ba6c9d3.chunk.js.map": "/static/js/787.7ba6c9d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eab2e61d.css",
+    "static/js/main.af18dd5a.js"
+  ]
+}
