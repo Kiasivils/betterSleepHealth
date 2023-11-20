@@ -13,13 +13,13 @@ nav{
     left: 0;
     height: 70px;
  }
- 
- 
+
+
  .logo-nav img {
     height: 95px;
  }
- 
- 
+
+
  nav ul {
     padding: 0;
     margin: 0;
@@ -28,52 +28,52 @@ nav{
     gap: 3rem;
     flex: 0 0 auto;
  }
- 
- 
+
+
  .home-images nav a {
     color: black;
  }
- 
- 
+
+
  nav a {
     color: #02122D;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
  }
- 
- 
+
+
  nav a.active {
     font-weight: bold;
     color: rgb(2, 66, 155);
  }
- 
- 
- 
- 
+
+
+
+
     nav ul li a.normal {
         color: white;
         text-decoration: none;
         font-weight: normal; /* Use 'normal' for non-bold text */
         font-size: 20px;
     }
- 
- 
+
+
     nav ul li a.active {
         font-weight: bold;
         /* Add any other styles you want for clicked links */
     }
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
  .mobile-menu-icon{
     display: none;
  }
- 
- 
+
+
  @media (max-width: 900px) {
     .logo-nav {
         z-index: 1;
@@ -87,7 +87,7 @@ nav{
         list-style: none;
         box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
         left: 0;
-        top: 12%;
+        top: 15%;
         transition: all 0.5s ease-in-out;
         background-color: #0A2C5E;
         justify-content: center;
@@ -106,36 +106,35 @@ nav{
         background-color: white;
         border: none;
       }
- 
- 
+
+
       .nav-links-mobile a {
         width: 40%;
         color: white;
       }
- 
- 
+
+
       div a {
         margin-left: 0;
         margin-right: 0;
         font-size: 20px;
         color: white;
       }
- 
- 
+
+
       nav ul li a.active {
         font-weight: bold;
        }
         svg {
         font-size: large;
     }
- 
- 
+
+
  }
- 
- 
+
+
  @media (min-width: 901px) and (max-width: 1024px){
     nav {
         width: 90%;
     }
  }
- 
